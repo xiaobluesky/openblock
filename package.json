@@ -1,0 +1,64 @@
+{
+  "name": "openblock",
+  "version": "0.0.1-mvp",
+  "description": "本地优先的开源知识工作空间 - Notion 的隐私友好替代品",
+  "author": "昊尘 002 号 <haochen002@openblock.dev>",
+  "license": "MIT",
+  "keywords": [
+    "notion-alternative",
+    "block-editor",
+    "knowledge-management",
+    "local-first",
+    "open-source",
+    "privacy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haochen002/openblock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haochen002/openblock/issues"
+  },
+  "homepage": "https://github.com/haochen002/openblock#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src --ext ts,tsx",
+    "lint:fix": "eslint src --ext ts,tsx --fix",
+    "typecheck": "tsc --noEmit",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@tiptap/react": "^2.1.0",
+    "@tiptap/core": "^2.1.0",
+    "@tiptap/starter-kit": "^2.1.0",
+    "@tiptap/extension-placeholder": "^2.1.0",
+    "yjs": "^13.6.0",
+    "y-websocket": "^1.5.0",
+    "zustand": "^4.4.0",
+    "better-sqlite3": "^9.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/uuid": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.0",
+    "typescript": "^5.1.0",
+    "vite": "^4.4.0",
+    "vitest": "^0.34.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
