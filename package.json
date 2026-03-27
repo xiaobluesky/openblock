@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/haochen002/openblock.git"
+    "url": "https://github.com/xiaobluesky/openblock.git"
   },
   "bugs": {
-    "url": "https://github.com/haochen002/openblock/issues"
+    "url": "https://github.com/xiaobluesky/openblock/issues"
   },
-  "homepage": "https://github.com/haochen002/openblock#readme",
+  "homepage": "https://github.com/xiaobluesky/openblock#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

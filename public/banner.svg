@@ -1,0 +1,65 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#312e81;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4338ca;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1280" height="640" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative Grid Pattern -->
+  <g opacity="0.1">
+    <defs>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="1"/>
+      </pattern>
+    </defs>
+    <rect width="1280" height="640" fill="url(#grid)"/>
+  </g>
+  
+  <!-- Logo Blocks (Left Side) -->
+  <g transform="translate(120, 180)">
+    <rect x="0" y="0" width="80" height="80" rx="12" fill="url(#blockGradient)"/>
+    <rect x="100" y="0" width="80" height="80" rx="12" fill="url(#blockGradient)" opacity="0.8"/>
+    <rect x="50" y="100" width="80" height="80" rx="12" fill="url(#blockGradient)"/>
+    <rect x="0" y="200" width="80" height="80" rx="12" fill="url(#blockGradient)" opacity="0.9"/>
+    <rect x="100" y="200" width="80" height="80" rx="12" fill="url(#blockGradient)" opacity="0.7"/>
+  </g>
+  
+  <!-- Main Text (Right Side) -->
+  <text x="720" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white" letter-spacing="2">OpenBlock</text>
+  
+  <!-- Tagline -->
+  <text x="720" y="340" font-family="Arial, sans-serif" font-size="28" fill="#c7d2fe" letter-spacing="1">本地优先的开源知识工作空间</text>
+  
+  <!-- Subtitle -->
+  <text x="720" y="390" font-family="Arial, sans-serif" font-size="22" fill="#a5b4fc">Notion 的隐私友好替代品</text>
+  
+  <!-- Feature Badges -->
+  <g transform="translate(720, 450)">
+    <rect x="0" y="0" width="140" height="45" rx="22" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <text x="70" y="28" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">🏠 本地优先</text>
+    
+    <rect x="160" y="0" width="140" height="45" rx="22" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <text x="230" y="28" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">🔓 开放格式</text>
+    
+    <rect x="320" y="0" width="140" height="45" rx="22" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <text x="390" y="28" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">🛡️ 隐私保护</text>
+  </g>
+  
+  <!-- GitHub Badge -->
+  <g transform="translate(720, 530)">
+    <rect x="0" y="0" width="200" height="50" rx="8" fill="#24292f"/>
+    <text x="100" y="32" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">⭐ Star on GitHub</text>
+  </g>
+  
+  <!-- URL at bottom -->
+  <text x="640" y="610" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" text-anchor="middle">github.com/xiaobluesky/openblock</text>
+</svg>
